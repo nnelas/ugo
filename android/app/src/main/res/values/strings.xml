@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">uGo</string>
+
+    <!-- Bottom Navigation -->
+    <string name="fragment_title_whatsnew">Novidades</string>
+    <string name="fragment_title_home">Home</string>
+    <string name="fragment_title_user">About Me</string>
+    <string name="fragment_title_suggestions">Sugestões</string>
+
+    <!-- -->
+    <string name="event_type_concerts">Concertos</string>
+    <string name="event_type_museums">Museus</string>
+    <string name="event_type_attractions">Atrações</string>
+    <string name="event_type_theatre">Teatro</string>
+
+    <!-- User Fragment -->
+    <string name="user_purchased_tickets">Compras Realizadas</string>
+    <string name="user_saved_events">Favoritos</string>
+    <string name="user_log_out">Terminar Sessão</string>
+
+    <!-- Settings Fragment -->
+    <string name="user_account_settings">Actualizar Perfil</string>
+    <string name="account_change_pic">Alterar Foto de Perfil</string>
+    <string name="account_change_email">Alterar </string>
+    
+    <!-- Pref Fragment -->
+    <string name="user_pref">Definições</string>
+    <string name="pref_about">Acerca</string>
+    <string name="pref_conf">Configurações</string>
+    <string name="pref_faq">Questões frequentes</string>
+    <string name="pref_legal_info">Informação Legal</string>
+
+</resources>

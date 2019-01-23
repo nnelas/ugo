@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nunonelas.ugo.activities.HomeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageButton
+            android:id="@+id/btn_museum"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@mipmap/ic_fragment_home_museum" />
+
+        <ImageButton
+            android:id="@+id/btn_attractions"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_toEndOf="@+id/btn_museum"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@mipmap/ic_fragment_home_attractions" />
+
+        <ImageButton
+            android:id="@+id/btn_theatre"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/btn_museum"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/ic_fragment_home_theatre" />
+
+        <ImageButton
+            android:id="@+id/btn_festivals"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/btn_museum"
+            android:layout_toEndOf="@+id/btn_theatre"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/ic_fragment_home_festivals" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
